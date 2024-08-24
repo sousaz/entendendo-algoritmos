@@ -14,9 +14,9 @@ type test struct {
 
 func TestBinarySearch(t *testing.T) {
 	tests := []test{
-		test{data: []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, target: 5, answer: 5},
-		test{data: []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, target: 7, answer: 7},
-		test{data: []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, target: 12, answer: -1},
+		{data: []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, target: 5, answer: 5},
+		{data: []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, target: 7, answer: 7},
+		{data: []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, target: 12, answer: -1},
 	}
 
 	for _, v := range tests {

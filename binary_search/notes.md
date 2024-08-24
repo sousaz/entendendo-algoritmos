@@ -1,6 +1,6 @@
 ## When to use:
 
-when u have an ordered list 
+when u have an sorted data 
 
 ## Big O:  
 
